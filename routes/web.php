@@ -21,5 +21,5 @@ Route::middleware([
     Route::get('/dashboard', [UserController::class, 'index'])->name('dashboard');
     
     //Admin-Panel Routes
-    Route::get('/admin', [AdminController::class, 'index'])->name('admin.index.get');
+    Route::get('db', [AdminController::class, 'index'])->name('admin.index.get');
 });
