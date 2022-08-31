@@ -23,3 +23,6 @@ Route::middleware([
     //Admin-Panel Routes
     Route::get('db', [AdminController::class, 'index'])->name('admin.index.get');
 });
+
+Route::get('/add-employee', [AdminController::class, 'addEmployee'])->name('addemployee');
+Route::post('/add-employee', [AdminController::class, 'regEmployee'])->name('regemployee');
