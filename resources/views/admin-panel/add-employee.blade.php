@@ -32,23 +32,23 @@
                                     @csrf
                                     <div class="mb-3">
                                         <label for="employeeName" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="employeeName" name="name">
+                                        <input type="text" class="form-control" id="employeeName" name="name" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="employeeId" class="form-label">Employee ID</label>
-                                        <input type="text" class="form-control" id="employeeId" name="emp_id">
+                                        <input type="text" class="form-control" id="employeeId" name="emp_id" required>
                                     </div>
                                     <div class="mb-3">
                                       <label for="employeeEmail1" class="form-label">Email address</label>
-                                      <input type="email" class="form-control" id="employeeEmail1" name="email">
+                                      <input type="email" class="form-control" id="employeeEmail1" name="email" required>
                                     </div>
                                     <div class="mb-3">
                                       <label for="employeeDept" class="form-label">Department</label>
-                                      <input type="text" class="form-control" id="employeeDept" name="dept">
+                                      <input type="text" class="form-control" id="employeeDept" name="dept" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="employeePhone" class="form-label">Phone Number</label>
-                                        <input type="text" class="form-control" id="employeePhone" name="phone">
+                                        <input type="text" class="form-control" id="employeePhone" name="phone" required>
                                       </div>
                                     <button type="submit" class="btn btn-primary">Submit</button>
                                   </form>

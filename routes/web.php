@@ -26,3 +26,4 @@ Route::middleware([
 
 Route::get('/add-employee', [AdminController::class, 'addEmployee'])->name('addemployee');
 Route::post('/add-employee', [AdminController::class, 'regEmployee'])->name('regemployee');
+Route::get('/employee', [AdminController::class, 'employeeList'])->name('employee.list');
