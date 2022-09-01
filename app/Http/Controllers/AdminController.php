@@ -33,7 +33,6 @@ class AdminController extends Controller
     public function employeeList()
     {
         $emp = Employee::all();
-        // dd($emp->toArray());
         return response()->json(['data' => $emp]);
     }
 }

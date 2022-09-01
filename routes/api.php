@@ -9,5 +9,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('employeelist', [AdminController::class, 'employeeList']);
-Route::resource('add-employee', ApiController::class);
+Route::resource('employee', ApiController::class);
