@@ -20,7 +20,6 @@ class AdminController extends Controller
 
     public function regEmployee (Request $request)
     {   
-        // return $request->all();
         $emp = new Employee;
         $emp->name   = $request->name;
         $emp->emp_id = $request->emp_id;
@@ -28,8 +27,7 @@ class AdminController extends Controller
         $emp->dept   = $request->dept;
         $emp->phone  = $request->phone;
         $emp->save();
-        // return redirect()->back()->with('success', 'Registration successfully complete!');
-        return Redirect::to('http://localhost:3000/employee');
+        return redirect()->back()->with('success', 'Registration successfully complete!');
     }
 
     public function employeeList()
