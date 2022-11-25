@@ -24,11 +24,11 @@
             padding: 20px 0px 20px 60px;
         }
         .sidebar-section ul li a{
-                text-decoration: none;
-                color: #000;
+            text-decoration: none;
+            color: #000;
         }
         .sidebar-section ul li:hover{
-                background-color: aquamarine;
+            background-color: aquamarine;
         }
         .inner-boby-section{
             max-height: calc(100vh - 120px);
